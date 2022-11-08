@@ -1,0 +1,160 @@
+:root{
+    --cor0: #E1DAF5;
+    --cor01:#171AFF;
+    --cor02:#2C60E6;
+    --cor03:#239BFC;
+    --cor04:#73DDF5;
+
+    --font-padrao:Arial, Verdana, Helvetica, sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;}
+
+body{
+    background-color: var(--cor0);
+
+}
+
+header{
+    min-height: 150px;
+    background-image: linear-gradient(to right, var(--cor03),var(--cor02),var(--cor0));
+    padding-top: 30px;
+    color: white;
+    
+    
+}
+
+header h1{
+    font-size: 40px;
+    text-align: center;
+    font-family: var(--font-padrao);
+
+}
+
+header p{
+    font-family: var(--font-padrao);
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+
+nav{
+    background-color: var(--cor01);
+    padding: 10px;
+    
+}
+
+nav > a{
+    padding-right: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 17px;
+    margin-top: 15px;
+    
+}
+
+nav > a:hover{
+    background-color:white;
+    color: black;
+    padding: 7px;
+    border-radius: 5px;
+
+
+}
+    
+
+
+main{
+    text-align: center;
+    background-color: white;
+    min-width: 320px;
+    max-width: 900px;
+    margin: auto;
+    border-top-left-radius:30px  ;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius:30px  ;
+    border-bottom-right-radius: 30px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 5px 7px 7px rgba(0, 0, 0, 0.521);
+    
+}
+
+main h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+   
+}
+
+main h2{
+    background-image: linear-gradient(to right, var(--cor0), var(--cor01), var(--cor02));
+    text-align: left;
+    margin-top: 20px;
+}
+
+main p {
+    text-indent: 30px;
+    text-align: justify;
+    font-family:var(--font-padrao);
+    font-size: 16px;
+    line-height: 1.3em;
+    margin: 15px 0px 15px 0px;
+    
+}
+
+main img{
+    width: 100%;
+
+}
+
+main ul {
+   text-align: left;
+   line-height: 1.5em;
+   color: var(--cor01);
+   
+    }
+
+     p.comborda{
+        border-style: solid;
+        border-width: 5px;
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+    p#borda{
+        border-style: ridge;
+        border-color: red;
+    }
+
+    h3{
+        text-align: left;
+        margin: 20px;
+        margin-left: 10px;
+    }
+
+    table, tr,th,td {
+       
+        width: 100%;
+      
+    }
+
+     
+
+     th{
+        
+        padding: 15px;
+        font-size: 20px;
+        background-color: var(--cor03);
+        
+    }
+
+    tr:nth-child(even){
+        background-color: rgb(177, 174, 174);
+    }
+    
+    
