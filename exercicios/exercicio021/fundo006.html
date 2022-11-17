@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo Fixo de Tela</title>
     <style>
         body{
             background-color: black;
@@ -13,10 +13,17 @@
             background-repeat: no-repeat;
             height: 100vh;
             background-size: cover;
+            background-attachment: fixed;
+            /* Fazendo um shorthands para isso tudo, nessa ordem:
+            color > image > position > repeat > (size-ele ainda nao está funcionando no shorthands, então ele entra separado.) > attachment*/
+            background: black url(imagens/wallpaper002.jpg ) center center no-repeat  fixed;
+            background-size: cover;
+            
+
         }
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -28,6 +35,10 @@
     <main>
         <h1>Teste de Imagem de Fundo</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident a vitae commodi laborum id eum nesciunt quasi assumenda dolores possimus. Beatae natus aperiam sit exercitationem laboriosam facere aliquam itaque quaerat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente magnam harum aperiam, nostrum earum sit nesciunt commodi debitis quae eveniet optio, perspiciatis eius eligendi quo, impedit rerum tempore sint dolorem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi reiciendis quia accusantium, laudantium delectus modi laboriosam at vero! Blanditiis saepe, itaque veritatis ex maiores repellat deserunt. Repellendus, provident eius! Id!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident a vitae commodi laborum id eum nesciunt quasi assumenda dolores possimus. Beatae natus aperiam sit exercitationem laboriosam facere aliquam itaque quaerat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente magnam harum aperiam, nostrum earum sit nesciunt commodi debitis quae eveniet optio, perspiciatis eius eligendi quo, impedit rerum tempore sint dolorem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi reiciendis quia accusantium, laudantium delectus modi laboriosam at vero! Blanditiis saepe, itaque veritatis ex maiores repellat deserunt. Repellendus, provident eius! Id!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident a vitae commodi laborum id eum nesciunt quasi assumenda dolores possimus. Beatae natus aperiam sit exercitationem laboriosam facere aliquam itaque quaerat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente magnam harum aperiam, nostrum earum sit nesciunt commodi debitis quae eveniet optio, perspiciatis eius eligendi quo, impedit rerum tempore sint dolorem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi reiciendis quia accusantium, laudantium delectus modi laboriosam at vero! Blanditiis saepe, itaque veritatis ex maiores repellat deserunt. Repellendus, provident eius! Id!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident a vitae commodi laborum id eum nesciunt quasi assumenda dolores possimus. Beatae natus aperiam sit exercitationem laboriosam facere aliquam itaque quaerat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente magnam harum aperiam, nostrum earum sit nesciunt commodi debitis quae eveniet optio, perspiciatis eius eligendi quo, impedit rerum tempore sint dolorem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi reiciendis quia accusantium, laudantium delectus modi laboriosam at vero! Blanditiis saepe, itaque veritatis ex maiores repellat deserunt. Repellendus, provident eius! Id!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident a vitae commodi laborum id eum nesciunt quasi assumenda dolores possimus. Beatae natus aperiam sit exercitationem laboriosam facere aliquam itaque quaerat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente magnam harum aperiam, nostrum earum sit nesciunt commodi debitis quae eveniet optio, perspiciatis eius eligendi quo, impedit rerum tempore sint dolorem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi reiciendis quia accusantium, laudantium delectus modi laboriosam at vero! Blanditiis saepe, itaque veritatis ex maiores repellat deserunt. Repellendus, provident eius! Id!
         </p>
         
     
